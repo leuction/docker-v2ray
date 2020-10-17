@@ -1,0 +1,29 @@
+{
+    "inbounds": [
+        {
+            "port": 10000,
+            "listen": "127.0.0.1",
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "82dd1c86-03d5-4a00-ad1e-ddac8c909227",
+                        "alterId": 64
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "ws",
+                "wsSettings": {
+                    "path": "/keiki"
+                }
+            }
+        }
+    ],
+    "outbounds": [
+        {
+            "protocol": "freedom",
+            "settings": {}
+        }
+    ]
+}
